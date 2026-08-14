@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>صانع العقيق اليمني</title>
+<!-- ربط ملف التصميم -->
+<link rel="stylesheet" href="style.css" />
+<!-- مكتبة الأيقونات المجانية -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<!-- الخطوط العربية والإنجليزية -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===== شريط العروض المتحرك ===== -->
+<div class="promo-bar">
+<span class="marquee">🎉 مرحباً بكم في صانع العقيق اليمني - شحن مجاني للطلبات فوق 200 ريال - عروض خاصة لعيد الأضحى 🎉</span>
+</div>
+
+<!-- ===== رأس الموقع (الشعار والقائمة) ===== -->
+<header class="header">
+<div class="container">
+<div class="logo">
+صانع العقيق
+<span>صنعاء الأصالة</span>
+</div>
+<ul class="nav-links">
+<li><a href="#">الرئيسية</a></li>
+<li><a href="#">خواتم</a></li>
+<li><a href="#">فصوص</a></li>
+<li><a href="#">سبح</a></li>
+<li><a href="#">نادرة</a></li>
+<li><a href="#">طلبات مخصصة</a></li>
+</ul>
+<div class="header-actions">
+<i class="fas fa-search" title="بحث"></i>
+<i class="fas fa-moon" id="themeToggle" title="الوضع المظلم/الفاتح"></i>
+<i class="fas fa-shopping-cart cart-badge" title="السلة"></i>
+</div>
+</div>
+</header>
+
+<!-- ===== عرض المنتجات ===== -->
+<section class="products-section">
+<div class="container">
+<h2 class="section-title">أحدث المنتجات</h2>
+<div class="product-grid" id="productGrid">
+<!-- هنا ستظهر المنتجات بواسطة ملف script.js -->
+</div>
+</div>
+</section>
+
+<!-- ===== نافذة الرؤية السريعة (التي تظهر عند الضغط على زر العين) ===== -->
+<div class="modal" id="quickViewModal">
+<div class="modal-content">
+<span class="modal-close" id="modalClose">×</span>
+<div class="modal-img">
+<img id="modalImg" src="" alt="صورة المنتج" />
+</div>
+<div class="modal-info">
+<h2 id="modalName">اسم المنتج</h2>
+<div class="price" id="modalPrice">٠ ريال</div>
+<div class="detail" id="modalWeight">الوزن: ٠ جرام</div>
+<div class="detail" id="modalCategory">التصنيف: خواتم</div>
+<p class="detail" id="modalDesc">وصف المنتج هنا.</p>
+<button class="btn btn-gold" id="modalAddCart"><i class="fas fa-cart-plus"></i> أضف للسلة</button>
+<button class="btn whatsapp-btn" id="modalWhatsapp"><i class="fab fa-whatsapp"></i> اطلب عبر واتساب</button>
+</div>
+</div>
+</div>
+
+<!-- ===== تذييل الموقع ===== -->
+<footer class="footer">
+<div class="container">
+<div>
+<h3>صانع العقيق</h3>
+<p>أول متجر إلكتروني يمني متخصص في العقيق اليمني والأحجار الكريمة بجودة عالية وتوصيل آمن.</p>
+<div class="social">
+<i class="fab fa-instagram"></i>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-tiktok"></i>
+<i class="fab fa-youtube"></i>
+</div>
+</div>
+<div>
+<h3>روابط سريعة</h3>
+<a href="#">الرئيسية</a>
+<a href="#">خواتم</a>
+<a href="#">فصوص</a>
+<a href="#">سبح</a>
+</div>
+<div>
+<h3>معلومات الاتصال</h3>
+<a href="https://wa.me/967730413413" target="_blank"><i class="fab fa-whatsapp"></i> محمد مقبل</a>
+<a href="https://wa.me/967734931886" target="_blank"><i class="fab fa-whatsapp"></i> مازن الصانع</a>
+<a href="#"><i class="fas fa-phone"></i> +967 730 413 413</a>
+<a href="#"><i class="fas fa-envelope"></i> info@saneaagate.com</a>
+</div>
+</div>
+<div class="footer-bottom">
+© 2026 صانع العقيق اليمني - جميع الحقوق محفوظة. بسنة الله نبدأ.
+</div>
+</footer>
+
+<!-- ربط ملف الأوامر البرمجية -->
+<script src="script.js"></script>
+</body>
+</html>
