@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #0A0A0A;
+    color: #F5F0EB;
+    padding: 40px 20px;
+}
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #1A1A1A;
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid #C9A87C44;
+}
+h1 {
+    color: #C9A87C;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-card {
+    background: #0D0D0D;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #C9A87C44;
+    background: #0A0A0A;
+    color: #F5F0EB;
+    font-size: 16px;
+}
+textarea {
+    min-height: 80px;
+}
+.btn-gold {
+    background: #C9A87C;
+    color: #0A0A0A;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn-danger {
+    background: #D32F2F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.products-list {
+    margin-top: 30px;
+}
+.product-item {
+    background: #0D0D0D;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-item button {
+    background: #D32F2F;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#loginSection {
+    text-align: center;
+    padding: 40px 0;
+}
+#loginSection input {
+    max-width: 300px;
+    display: inline-block;
+}
+#loginSection button {
+    background: #C9A87C;
+    color: #0A0A0A;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
