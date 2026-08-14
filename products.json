@@ -1,0 +1,47 @@
+[
+{
+"id": 1,
+"name": "خاتم عقيق أحمر",
+"price": 250,
+"weight": 12,
+"category": "خواتم",
+"image": "https://via.placeholder.com/400x400/C9A87C/0A0A0A?text=عقيق+أحمر",
+"description": "خاتم فضي عيار 925 مع فص عقيق أحمر طبيعي من جبال اليمن. لون غامق ولمعة استثنائية."
+},
+{
+"id": 2,
+"name": "فص عقيق أبيض نادر",
+"price": 180,
+"weight": 8,
+"category": "فصوص",
+"image": "https://via.placeholder.com/400x400/E0D5C0/0A0A0A?text=عقيق+أبيض",
+"description": "فص عقيق أبيض شفاف مع عروق ذهبية طبيعية. حجر نادر مناسب للأعمال الفنية."
+},
+{
+"id": 3,
+"name": "سبحة عقيق يمني 33 حبة",
+"price": 320,
+"weight": 45,
+"category": "سبح",
+"image": "https://via.placeholder.com/400x400/8B7355/0A0A0A?text=سبحة+عقيق",
+"description": "سبحة يدوية من العقيق اليمني الأصلي، 33 حبة مصقولة باليد، مثالية للهدايا."
+},
+{
+"id": 4,
+"name": "خاتم عقيق أزرق (ذهب)",
+"price": 450,
+"weight": 10,
+"category": "خواتم",
+"image": "https://via.placeholder.com/400x400/4169E1/0A0A0A?text=عقيق+أزرق",
+"description": "خاتم ذهبي عيار 21 مع فص عقيق أزرق نادر من نوعه. تصميم عصري مع لمسة كلاسيكية."
+},
+{
+"id": 5,
+"name": "حجر السج اليمني",
+"price": 120,
+"weight": 20,
+"category": "نادرة",
+"image": "https://via.placeholder.com/400x400/2F4F4F/0A0A0A?text=سج+يمني",
+"description": "حجر سج يمني أسود براق مع خطوط بيضاء طبيعية. يستخدم في الديكورات والعلاج بالطاقة."
+}
+]
