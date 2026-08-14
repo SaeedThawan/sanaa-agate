@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لوحة تحكم - صانع العقيق</title>
+    <link rel="stylesheet" href="admin-style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <div class="admin-container">
+        <h1>🔐 لوحة تحكم صانع العقيق</h1>
+        
+        <!-- قسم تسجيل الدخول -->
+        <div id="loginSection">
+            <input type="password" id="adminPassword" placeholder="أدخل كلمة المرور" />
+            <button onclick="login()">دخول</button>
+            <p id="loginError" style="color:red;display:none;">كلمة المرور خاطئة</p>
+        </div>
+
+        <!-- قسم الإدارة (يظهر بعد تسجيل الدخول) -->
+        <div id="adminPanel" style="display:none;">
+            <h2>📦 إدارة المنتجات</h2>
+            
+            <!-- نموذج إضافة منتج -->
+            <div class="form-card">
+                <h3>➕ إضافة منتج جديد</h3>
+                <input type="text" id="productName" placeholder="اسم المنتج" />
+                <input type="number" id="productPrice" placeholder="السعر (ريال)" />
+                <input type="number" id="productWeight" placeholder="الوزن (جرام)" />
+                <input type="text" id="productCategory" placeholder="التصنيف (خواتم/فصوص/سبح/نادرة)" />
+                <input type="text" id="productImage" placeholder="رابط الصورة" />
+                <textarea id="productDesc" placeholder="وصف المنتج"></textarea>
+                <button onclick="addProduct()" class="btn-gold">➕ أضف المنتج</button>
+            </div>
+
+            <!-- قائمة المنتجات الحالية -->
+            <div class="products-list">
+                <h3>📋 المنتجات الحالية</h3>
+                <div id="productsTable"></div>
+            </div>
+
+            <button onclick="logout()" class="btn-danger">🚪 تسجيل خروج</button>
+        </div>
+    </div>
+
+    <script src="admin-script.js"></script>
+</body>
+</html>
